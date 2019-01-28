@@ -1,0 +1,32 @@
+
+
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+.grid div:nth-child(even) {
+    background-color: red;
+  }
+.grid div:nth-child(odd) {
+    background-color: green;
+  }
+</style>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width-device-width, initial-scale-1.0">
+<link rel="stylesheet" href="style.css">
+<title></title>
+</head>
+<body>
+
+<div class="grid">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+
