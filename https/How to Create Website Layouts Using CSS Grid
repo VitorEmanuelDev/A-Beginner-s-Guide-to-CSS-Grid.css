@@ -1,20 +1,27 @@
+<!DOCTYPE ntml>
+<html>
 
+<style type="text/css">
 
-
-<style>
 * {
   margin: 0;
   padding: 0;
   }
 
-.grid div:nth-child(even) {
-    background-color: red;
-  }
-.grid div:nth-child(odd) {
-    background-color: green;
-  }
-</style>
+.grid {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
 
+  .grid div:nth-child(even) {
+      background-color: green;
+    }
+
+    .grid div:nth-child(odd) {
+      background-color: red;
+    }
+  
+</style>
 <head>
 <meta charset="utf-8">
 <meta name="viewpoint" content="width-device-width, initial-scale-1.0">
@@ -22,11 +29,11 @@
 <title></title>
 </head>
 <body>
-
 <div class="grid">
 <div>1</div>
 <div>2</div>
 <div>3</div>
 <div>4</div>
 <div>5</div>
-
+</body>
+</html>
