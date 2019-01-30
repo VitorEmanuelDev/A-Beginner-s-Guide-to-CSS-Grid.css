@@ -44,7 +44,8 @@ grid-row-end: span 2;*/
 .content{
   grid-area: content;
   /*justify-self: start;
-  align-self: center;*/
+  align-self: center;
+  display:grid;*/
   }
 
 .footer{
@@ -60,6 +61,20 @@ grid-row-end: span 2;*/
       background-color: green;
     }
 
+/*css code below for mobile versions*/ 
+
+@media screen and (min-width: 736px) {
+.grid {
+  display: grid;
+  grid-template-columns:1fr  1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-areas: 
+  "title title"
+  "header header"
+  "sidebar sidebar"
+  "footer footer";
+}
+}
   </style>
 <head>
 <meta charset="utf-8">
