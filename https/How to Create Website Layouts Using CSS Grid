@@ -23,36 +23,36 @@
 
 .title {
   grid-area: title;
-/*background-color: pink*/;
+background-color: pink;
 }
 
 .header {
   grid-area: header;
-  /*background-color: red*/;
+  background-color: red;
   }
 
 .sidebar {
   grid-area: sidebar;
-  /*background-color: yellow*/;
+  background-color: yellow;
   }
 
 .content {
-  grid-area: content
-      /*background-color: blue*/;
+  grid-area: content;
+  background-color: purple;
   }
 
 .footer{
   grid-area: footer;
-  /*background-color: green*/;
+  background-color: green;
   }
 
- .grid div:nth-child(odd) {
+ /*.grid div:nth-child(odd) {
   background-color:green;
   }
 
 .grid div:nth-child(even) {
   background-color: red; 
-}
+}*/
 
 /*css code below for desktop versions*/ 
 @media screen and (min-width: 736px) {
