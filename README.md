@@ -9,3 +9,5 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout
 
 https://www.youtube.com/watch?v=yfoY53QXEnI&t=31s
+
+https://www.youtube.com/watch?v=jV8B24rSN5o
